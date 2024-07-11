@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+.scrollbar {
+  overflow-y: scroll;
+  scrollbar-color: gray;
+  scrollbar-width: thin;
+}
