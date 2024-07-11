@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "real time chat ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node inex.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "chat",
+    "realtime-chat",
+    "live-chat"
+  ],
+  "author": "Bruno Soares",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "utf-8-validate": "^6.0.4"
+  }
+}
